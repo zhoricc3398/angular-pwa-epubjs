@@ -77,5 +77,17 @@ export class AppComponent implements OnInit {
         }
       )
     );
+
+    // next page
+    document.getElementById('nextPage').addEventListener('click', () => {
+      // next page
+      this.Rendition.next();
+    });
+
+    // prev page
+    document.getElementById('prevPage').addEventListener('click', () => {
+      // next page
+      this.Rendition.prev();
+    });
   }
 }

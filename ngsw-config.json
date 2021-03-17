@@ -26,5 +26,17 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "book",
+      "urls": [
+        "https://zhoricc3398.github.io/ugt-csp/assets/test.epub"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "3d"
+      }
+    }
   ]
 }
