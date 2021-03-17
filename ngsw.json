@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1616018604135,
+  "index": "https://zhoricc3398.github.io/angular-pwa-epubjs/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/favicon.ico",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/index.html",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/main.c0228d817dfe004199a4.js",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/manifest.webmanifest",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/polyfills.94daefd414b8355106ab.js",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/runtime.7b63b9fd40098a2e8207.js",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-128x128.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-144x144.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-152x152.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-192x192.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-384x384.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-512x512.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-72x72.png",
+        "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "book",
+      "patterns": [
+        "https:\\/\\/zhoricc3398\\.github\\.io\\/ugt-csp\\/assets\\/test\\.epub"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/index.html": "9d37016c5c9e4c4bbec18a12a2abfb9e9c6a8df4",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/main.c0228d817dfe004199a4.js": "274cc02788a73b5ef5b88f88a94d9a4b2d50df06",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/manifest.webmanifest": "7237ecf286b6ea17503713d95131dde9118efc32",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://zhoricc3398.github.io/angular-pwa-epubjs/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
