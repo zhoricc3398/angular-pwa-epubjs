@@ -31,7 +31,7 @@
     {
       "name": "book",
       "urls": [
-        "https://zhoricc3398.github.io/ugt-csp/assets/test.epub"
+        "https://zhoricc3398.github.io/ugt-csp/assets/doyle-hound-of-the-baskervilles.epub"
       ],
       "cacheConfig": {
         "maxSize": 100,
