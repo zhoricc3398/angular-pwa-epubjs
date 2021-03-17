@@ -86,7 +86,7 @@ export class AppComponent implements OnInit {
 
     // prev page
     document.getElementById('prevPage').addEventListener('click', () => {
-      // next page
+      // prev page
       this.Rendition.prev();
     });
   }
