@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
   load(): void {
     //
     const url: string =
-      'https://zhoricc3398.github.io/ugt-csp/assets/test.epub';
+      'https://zhoricc3398.github.io/ugt-csp/assets/doyle-hound-of-the-baskervilles.epub';
 
     //
     this.subscription.add(
